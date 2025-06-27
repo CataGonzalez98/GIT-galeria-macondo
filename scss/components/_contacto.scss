@@ -1,0 +1,50 @@
+.contacto1 {
+    border: solid 3px rgb(255, 238, 5);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 95%;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 50px 150px 30px 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    h2 {
+        color: rgb(255, 238, 5);
+        font-size: 50px;
+        padding-left: 50px;
+    }
+
+    div {
+        .llamar {
+            background-color: rgb(253, 247, 156);
+            color: black;
+            width: 80px;
+            height: 40px;
+        }
+    }
+}
+
+.ubicacion {
+    border: solid 3px rgb(255, 238, 5);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 95%;
+    height: 700px;
+    margin-bottom: 20px;
+    padding: 50px 150px 30px 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    h2 {
+        color: rgb(255, 238, 5);
+        font-size: 50px;
+        padding-left: 50px;
+    }
+}
+
+.iframe {
+    width: 80%;
+}

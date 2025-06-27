@@ -1,0 +1,71 @@
+.intro {
+    border: solid 3px rgb(255, 238, 5);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 95%;
+    height: 400px;
+    margin-bottom: 20px;
+    padding: 50px 150px 30px 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    img {
+        width: 500px;
+        height: 300px;
+    }
+
+    div {
+        h2 {
+            font-size: 60px;
+        }
+    }
+}
+
+.mision {
+    border: solid 3px rgb(255, 238, 5);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 95%;
+    height: 400px;
+    margin-bottom: 20px;
+    padding: 50px 150px 30px 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    img {
+        width: 500px;
+        height: 300px;
+    }
+
+    div {
+        h2 {
+            font-size: 60px;
+        }
+    }
+}
+
+.vision {
+    border: solid 3px rgb(255, 238, 5);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 95%;
+    height: 400px;
+    margin-bottom: 20px;
+    padding: 50px 150px 30px 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    img {
+        width: 500px;
+        height: 300px;
+    }
+
+    div {
+        h2 {
+            font-size: 60px;
+        }
+    }
+}
