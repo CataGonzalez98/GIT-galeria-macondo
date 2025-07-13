@@ -987,6 +987,17 @@
 }
 
 @media screen and (max-width: 984px) {
+  .ex {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 984px) {
   .card1 img {
     width: 200px;
   }
@@ -1805,9 +1816,10 @@
     display: none;
   }
 }
-@media screen and (max-width: 813px){
-  .blog3{
-    display: nonegi;
+
+@media screen and (max-width: 813px) {
+  .blog3 {
+    display: none;
   }
 }
 

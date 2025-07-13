@@ -1855,6 +1855,12 @@ header nav ul li a:hover {
     }
 }
 
+@media screen and (max-width: 813px) {
+    .blog3 {
+        display: nonegi;
+    }
+}
+
 @media screen and (max-width: 775px) {
     .texto1 {
         width: 930px;
