@@ -98,6 +98,7 @@ header nav ul li a:hover {
     text-align: center;
     justify-content: space-around;
     text-decoration: none;
+    transition: 1s
 }
 
 .nosotros a:hover {
@@ -141,6 +142,7 @@ header nav ul li a:hover {
     display: flex;
     flex-direction: column;
     padding-top: 40px;
+    transition: 1s
 }
 
 .card1 {
@@ -179,6 +181,7 @@ header nav ul li a:hover {
     display: flex;
     flex-direction: column;
     padding-top: 40px;
+    transition: 1s
 }
 
 .card2 {
@@ -217,6 +220,7 @@ header nav ul li a:hover {
     display: flex;
     flex-direction: column;
     padding-top: 40px;
+    transition: 1s
 }
 
 .card3 {
@@ -455,6 +459,11 @@ header nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 2s;
+}
+
+.carta1:hover {
+    transform: scale(1.2)
 }
 
 .carta1 p {
@@ -474,6 +483,11 @@ header nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 2s;
+}
+
+.carta2:hover {
+    transform: scale(1.2)
 }
 
 .carta2 p {
@@ -493,6 +507,11 @@ header nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 2s;
+}
+
+.carta3:hover {
+    transform: scale(1.2)
 }
 
 .carta3 p {
@@ -569,6 +588,11 @@ header nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 2s;
+}
+
+.carta4:hover {
+    transform: scale(1.2)
 }
 
 .carta5 {
@@ -579,6 +603,11 @@ header nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 2s;
+}
+
+.carta5:hover {
+    transform: scale(1.2)
 }
 
 .carta6 {
@@ -589,6 +618,11 @@ header nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 2s;
+}
+
+.carta6:hover {
+    transform: scale(1.2)
 }
 
 .cta {
@@ -598,6 +632,12 @@ header nav ul li a:hover {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     height: 150px;
+}
+
+.cta div p {
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 30px;
 }
 
 .cta1 h2 {
@@ -675,6 +715,13 @@ header nav ul li a:hover {
 .blogs img {
     width: 300px;
     height: 300px;
+    transition: 1s;
+}
+
+.blogs img:hover {
+    box-shadow: 0px 19px 57px -5px rgba(0, 0, 0, 0.56);
+    -webkit-box-shadow: 0px 19px 57px -5px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 0px 19px 57px -5px rgba(0, 0, 0, 0.56);
 }
 
 .blogs1 {
@@ -688,6 +735,13 @@ header nav ul li a:hover {
 .blogs1 img {
     width: 300px;
     height: 300px;
+    transition: 1s;
+}
+
+.blogs1 img:hover {
+    box-shadow: 0px 19px 57px -5px rgba(0, 0, 0, 0.56);
+    -webkit-box-shadow: 0px 19px 57px -5px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 0px 19px 57px -5px rgba(0, 0, 0, 0.56);
 }
 
 .blogs2 {
@@ -701,113 +755,202 @@ header nav ul li a:hover {
 .blogs2 img {
     width: 300px;
     height: 300px;
+    transition: 1s;
 }
 
-@media screen and (max-width: 1000px){
-    .carta1{width: 268px;
-    height: 310px;     
-    }
-}
-@media screen and (max-width: 1000px){
-    .carta1 img{width: 260px;
-    height: 260px;}
-}
-@media screen and (max-width:1000px){
-    .carta1 h3{font-size: 20px;}
-}
-@media screen and (max-width:1000px){
-    .carta1 p{font-size: 15px;}
+.blogs2 img:hover {
+    box-shadow: 0px 19px 57px -5px rgba(0, 0, 0, 0.56);
+    -webkit-box-shadow: 0px 19px 57px -5px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 0px 19px 57px -5px rgba(0, 0, 0, 0.56);
 }
 
-@media screen and (max-width: 1000px){
-    .carta2{width: 268px;
-    height: 310px;     
-    }
-}
-@media screen and (max-width: 1000px){
-    .carta2 img{width: 260px;
-    height: 260px;}
-}
-@media screen and (max-width:1000px){
-    .carta2 h3{font-size: 20px;}
-}
-@media screen and (max-width:1000px){
-    .carta2 p{font-size: 15px;}
+.blogs div button {
+    background-color: rgb(253, 247, 156);
 }
 
-@media screen and (max-width: 1000px){
-    .carta3{width: 270px;
-    height: 310px;     
-    }
-}
-@media screen and (max-width: 1000px){
-    .carta3 img{width: 260px;
-    height: 260px;}
-}
-@media screen and (max-width:1000px){
-    .carta3 h3{font-size: 20px;}
-}
-@media screen and (max-width:1000px){
-    .carta3 p{font-size: 14px;}
+.blogs1 div button {
+    background-color: rgb(253, 247, 156);
 }
 
-@media screen and (max-width: 1000px){
-    .carta4{width: 270px;
-    height: 310px;     
-    }
-}
-@media screen and (max-width: 1000px){
-    .carta4 img{width: 260px;
-    height: 260px;}
-}
-@media screen and (max-width:1000px){
-    .carta4 h3{font-size: 20px;}
-}
-@media screen and (max-width:1000px){
-    .carta4 p{font-size: 14px;}
-}
-@media screen and (max-width: 1000px){
-    .carta5{width: 270px;
-    height: 310px;     
-    }
-}
-@media screen and (max-width: 1000px){
-    .carta5 img{width: 260px;
-    height: 260px;}
-}
-@media screen and (max-width:1000px){
-    .carta5 h3{font-size: 20px;}
-}
-@media screen and (max-width:1000px){
-    .carta5 p{font-size: 14px;}
-}
-@media screen and (max-width: 1000px){
-    .carta6{width: 270px;
-    height: 310px;     
-    }
-}
-@media screen and (max-width: 1000px){
-    .carta6 img{width: 260px;
-    height: 260px;}
-}
-@media screen and (max-width:1000px){
-    .carta6 h3{font-size: 20px;}
-}
-@media screen and (max-width:1000px){
-    .carta6 p{font-size: 14px;}
+.blogs2 div button {
+    background-color: rgb(253, 247, 156);
 }
 
-@media screen and (max-width:1000px){
-    .blogs img{width: 250px;
-    height: 250px;}
+@media screen and (max-width: 1000px) {
+    .carta1 {
+        width: 268px;
+        height: 310px;
+    }
 }
-@media screen and (max-width:1000px){
-    .blogs1 img{width: 250px;
-    height: 250px;}
+
+@media screen and (max-width: 1000px) {
+    .carta1 img {
+        width: 260px;
+        height: 260px;
+    }
 }
-@media screen and (max-width:1000px){
-    .blogs2 img{width: 250px;
-    height: 250px;}
+
+@media screen and (max-width:1000px) {
+    .carta1 h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .carta1 p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .carta2 {
+        width: 268px;
+        height: 310px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .carta2 img {
+        width: 260px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .carta2 h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .carta2 p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .carta3 {
+        width: 270px;
+        height: 310px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .carta3 img {
+        width: 260px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .carta3 h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .carta3 p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .carta4 {
+        width: 270px;
+        height: 310px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .carta4 img {
+        width: 260px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .carta4 h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .carta4 p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .carta5 {
+        width: 270px;
+        height: 310px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .carta5 img {
+        width: 260px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .carta5 h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .carta5 p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .carta6 {
+        width: 270px;
+        height: 310px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .carta6 img {
+        width: 260px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .carta6 h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .carta6 p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .blogs img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .blogs1 img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .blogs2 img {
+        width: 250px;
+        height: 250px;
+    }
 }
 
 @media screen and (max-width:984px) {
@@ -856,29 +999,45 @@ header nav ul li a:hover {
         font-size: 12px;
     }
 }
-@media screen and (max-width:984px){
-    .actual{column-gap: 0px;
+
+@media screen and (max-width:984px) {
+    .actual {
+        column-gap: 0px;
     }
 }
-@media screen and (max-width:984px){
-    .carta1{padding-right: 0px;
-    margin-left: 40px;}
-}
-@media screen and (max-width:984px){
-    .carta2{margin-right: 10px;
-    margin-left: 30px;}
-}
-@media screen and (max-width:984px){
-    .pasado{column-gap: 0px;
+
+@media screen and (max-width:984px) {
+    .carta1 {
+        padding-right: 0px;
+        margin-left: 40px;
     }
 }
-@media screen and (max-width:984px){
-    .carta4{padding-right: 0px;
-    margin-left: 40px;}
+
+@media screen and (max-width:984px) {
+    .carta2 {
+        margin-right: 10px;
+        margin-left: 30px;
+    }
 }
-@media screen and (max-width:984px){
-    .carta5{margin-right: 10px;
-    margin-left: 30px;}
+
+@media screen and (max-width:984px) {
+    .pasado {
+        column-gap: 0px;
+    }
+}
+
+@media screen and (max-width:984px) {
+    .carta4 {
+        padding-right: 0px;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width:984px) {
+    .carta5 {
+        margin-right: 10px;
+        margin-left: 30px;
+    }
 }
 
 
@@ -1035,91 +1194,162 @@ header nav ul li a:hover {
     }
 }
 
-@media screen and (max-width:966px){
-    .carta1 img{width: 230px;
-    height: 220px;}
-}
-@media screen and (max-width:966px){
-    .carta1 h3{font-size: 20px;}
-}
-@media screen and (max-width:966px){
-    .carta1 p{font-size: 15px;}
-}
-@media screen and (max-width:966px){
-    .carta1 {height: 333px;
-    width: 235px;}
+@media screen and (max-width:966px) {
+    .carta1 img {
+        width: 230px;
+        height: 220px;
+    }
 }
 
-@media screen and (max-width:966px){
-    .carta2 img{width: 230px;
-    height: 220px;}
+@media screen and (max-width:966px) {
+    .carta1 h3 {
+        font-size: 20px;
+    }
 }
-@media screen and (max-width:966px){
-    .carta2 h3{font-size: 20px;}
+
+@media screen and (max-width:966px) {
+    .carta1 p {
+        font-size: 15px;
+    }
 }
-@media screen and (max-width:966px){
-    .carta2 p{font-size: 15px;}
+
+@media screen and (max-width:966px) {
+    .carta1 {
+        height: 333px;
+        width: 235px;
+    }
 }
-@media screen and (max-width:966px){
-    .carta2 {height: 333px;
-    width: 235px;}
+
+@media screen and (max-width:966px) {
+    .carta2 img {
+        width: 230px;
+        height: 220px;
+    }
 }
-@media screen and (max-width:966px){
-    .carta3 img{width: 230px;
-    height: 220px;}
+
+@media screen and (max-width:966px) {
+    .carta2 h3 {
+        font-size: 20px;
+    }
 }
-@media screen and (max-width:966px){
-    .carta3 h3{font-size: 20px;}
+
+@media screen and (max-width:966px) {
+    .carta2 p {
+        font-size: 15px;
+    }
 }
-@media screen and (max-width:966px){
-    .carta3 p{font-size: 15px;}
+
+@media screen and (max-width:966px) {
+    .carta2 {
+        height: 333px;
+        width: 235px;
+    }
 }
-@media screen and (max-width:966px){
-    .carta3 {height: 333px;
-    width: 235px;}
+
+@media screen and (max-width:966px) {
+    .carta3 img {
+        width: 230px;
+        height: 220px;
+    }
 }
-@media screen and (max-width:966px){
-    .carta4 img{width: 230px;
-    height: 220px;}
+
+@media screen and (max-width:966px) {
+    .carta3 h3 {
+        font-size: 20px;
+    }
 }
-@media screen and (max-width:966px){
-    .carta4 h3{font-size: 20px;}
+
+@media screen and (max-width:966px) {
+    .carta3 p {
+        font-size: 15px;
+    }
 }
-@media screen and (max-width:966px){
-    .carta4 p{font-size: 15px;}
+
+@media screen and (max-width:966px) {
+    .carta3 {
+        height: 333px;
+        width: 235px;
+    }
 }
-@media screen and (max-width:966px){
-    .carta4 {height: 333px;
-    width: 235px;}
+
+@media screen and (max-width:966px) {
+    .carta4 img {
+        width: 230px;
+        height: 220px;
+    }
 }
-@media screen and (max-width:966px){
-    .carta5 img{width: 230px;
-    height: 220px;}
+
+@media screen and (max-width:966px) {
+    .carta4 h3 {
+        font-size: 20px;
+    }
 }
-@media screen and (max-width:966px){
-    .carta5 h3{font-size: 20px;}
+
+@media screen and (max-width:966px) {
+    .carta4 p {
+        font-size: 15px;
+    }
 }
-@media screen and (max-width:966px){
-    .carta5 p{font-size: 15px;}
+
+@media screen and (max-width:966px) {
+    .carta4 {
+        height: 333px;
+        width: 235px;
+    }
 }
-@media screen and (max-width:966px){
-    .carta5 {height: 333px;
-    width: 235px;}
+
+@media screen and (max-width:966px) {
+    .carta5 img {
+        width: 230px;
+        height: 220px;
+    }
 }
-@media screen and (max-width:966px){
-    .carta6 img{width: 230px;
-    height: 220px;}
+
+@media screen and (max-width:966px) {
+    .carta5 h3 {
+        font-size: 20px;
+    }
 }
-@media screen and (max-width:966px){
-    .carta6 h3{font-size: 20px;}
+
+@media screen and (max-width:966px) {
+    .carta5 p {
+        font-size: 15px;
+    }
 }
-@media screen and (max-width:966px){
-    .carta6 p{font-size: 15px;}
+
+@media screen and (max-width:966px) {
+    .carta5 {
+        height: 333px;
+        width: 235px;
+    }
 }
-@media screen and (max-width:966px){
-    .carta6 {height: 333px;
-    width: 235px;}
+
+@media screen and (max-width:966px) {
+    .carta6 img {
+        width: 230px;
+        height: 220px;
+    }
 }
+
+@media screen and (max-width:966px) {
+    .carta6 h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:966px) {
+    .carta6 p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:966px) {
+    .carta6 {
+        height: 333px;
+        width: 235px;
+    }
+}
+
 @media screen and (max-width:919px) {
     .texto1 {
         width: 930px;
@@ -1135,203 +1365,348 @@ header nav ul li a:hover {
         margin-bottom: 20px;
     }
 }
-@media screen and (max-width:889px){
-    .blogs img{
+
+@media screen and (max-width:889px) {
+    .blogs img {
         width: 200px;
         height: 200px;
     }
 }
-@media screen and (max-width:889px){
-    .blogs1 img{
+
+@media screen and (max-width:889px) {
+    .blogs1 img {
         width: 200px;
         height: 200px;
     }
 }
-@media screen and (max-width:889px){
-    .blogs2 img{
+
+@media screen and (max-width:889px) {
+    .blogs2 img {
         width: 200px;
         height: 200px;
     }
 }
-@media screen and (max-width:875px){
-    .carta1 img{width: 220px;
-    height: 210px;}
-}
-@media screen and (max-width:875px){
-    .carta1 h3{font-size: 20px;}
-}
-@media screen and (max-width:875px){
-    .carta1 p{font-size: 15px;}
-}
-@media screen and (max-width:875px){
-    .carta1 {height: 300px;
-    width: 226px;}
+
+@media screen and (max-width:875px) {
+    .carta1 img {
+        width: 220px;
+        height: 210px;
+    }
 }
 
-@media screen and (max-width:875px){
-    .carta2 img{width: 220px;
-    height: 210px;}
-}
-@media screen and (max-width:875px){
-    .carta2 h3{font-size: 20px;}
-}
-@media screen and (max-width:875px){
-    .carta2 p{font-size: 15px;}
-}
-@media screen and (max-width:875px){
-    .carta2 {height: 300px;
-    width: 226px;}
+@media screen and (max-width:875px) {
+    .carta1 h3 {
+        font-size: 20px;
+    }
 }
 
-@media screen and (max-width:875px){
-    .carta3 img{width: 220px;
-    height: 210px;}
-}
-@media screen and (max-width:875px){
-    .carta3 h3{font-size: 20px;}
-}
-@media screen and (max-width:875px){
-    .carta3 p{font-size: 15px;}
-}
-@media screen and (max-width:875px){
-    .carta3 {height: 300px;
-    width: 226px;}
+@media screen and (max-width:875px) {
+    .carta1 p {
+        font-size: 15px;
+    }
 }
 
-@media screen and (max-width:875px){
-    .carta4 img{width: 220px;
-    height: 210px;}
-}
-@media screen and (max-width:875px){
-    .carta4 h3{font-size: 20px;}
-}
-@media screen and (max-width:875px){
-    .carta4 p{font-size: 15px;}
-}
-@media screen and (max-width:875px){
-    .carta4 {height: 300px;
-    width: 226px;}
-}
-@media screen and (max-width:875px){
-    .carta5 img{width: 220px;
-    height: 210px;}
-}
-@media screen and (max-width:875px){
-    .carta5 h3{font-size: 20px;}
-}
-@media screen and (max-width:875px){
-    .carta5 p{font-size: 15px;}
-}
-@media screen and (max-width:875px){
-    .carta5 {height: 300px;
-    width: 226px;}
+@media screen and (max-width:875px) {
+    .carta1 {
+        height: 300px;
+        width: 226px;
+    }
 }
 
-@media screen and (max-width:875px){
-    .carta6 img{width: 220px;
-    height: 210px;}
-}
-@media screen and (max-width:875px){
-    .carta6 h3{font-size: 20px;}
-}
-@media screen and (max-width:875px){
-    .carta6 p{font-size: 15px;}
-}
-@media screen and (max-width:875px){
-    .carta6 {height: 300px;
-    width: 226px;}
+@media screen and (max-width:875px) {
+    .carta2 img {
+        width: 220px;
+        height: 210px;
+    }
 }
 
-@media screen and (max-width:839px){
-    .carta1 img{width: 200px;
-    height: 200px;}
+@media screen and (max-width:875px) {
+    .carta2 h3 {
+        font-size: 20px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta1 h3{font-size: 20px;}
+
+@media screen and (max-width:875px) {
+    .carta2 p {
+        font-size: 15px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta1 p{font-size: 15px;}
+
+@media screen and (max-width:875px) {
+    .carta2 {
+        height: 300px;
+        width: 226px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta1 {height: 290px;
-    width: 205px;}
+
+@media screen and (max-width:875px) {
+    .carta3 img {
+        width: 220px;
+        height: 210px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta2 img{width: 200px;
-    height: 200px;}
+
+@media screen and (max-width:875px) {
+    .carta3 h3 {
+        font-size: 20px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta2 h3{font-size: 18px;}
+
+@media screen and (max-width:875px) {
+    .carta3 p {
+        font-size: 15px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta2 p{font-size: 15px;}
+
+@media screen and (max-width:875px) {
+    .carta3 {
+        height: 300px;
+        width: 226px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta2 {height: 290px;
-    width: 205px;}
+
+@media screen and (max-width:875px) {
+    .carta4 img {
+        width: 220px;
+        height: 210px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta3 img{width: 200px;
-    height: 200px;}
+
+@media screen and (max-width:875px) {
+    .carta4 h3 {
+        font-size: 20px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta3 h3{font-size: 20px;}
+
+@media screen and (max-width:875px) {
+    .carta4 p {
+        font-size: 15px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta3 p{font-size: 15px;}
+
+@media screen and (max-width:875px) {
+    .carta4 {
+        height: 300px;
+        width: 226px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta3 {height: 290px;
-    width: 205px;}
+
+@media screen and (max-width:875px) {
+    .carta5 img {
+        width: 220px;
+        height: 210px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta4 img{width: 200px;
-    height: 200px;}
+
+@media screen and (max-width:875px) {
+    .carta5 h3 {
+        font-size: 20px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta4 h3{font-size: 20px;}
+
+@media screen and (max-width:875px) {
+    .carta5 p {
+        font-size: 15px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta4 p{font-size: 15px;}
+
+@media screen and (max-width:875px) {
+    .carta5 {
+        height: 300px;
+        width: 226px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta4 {height: 290px;
-    width: 205px;}
+
+@media screen and (max-width:875px) {
+    .carta6 img {
+        width: 220px;
+        height: 210px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta5 img{width: 200px;
-    height: 200px;}
+
+@media screen and (max-width:875px) {
+    .carta6 h3 {
+        font-size: 20px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta5 h3{font-size: 20px;}
+
+@media screen and (max-width:875px) {
+    .carta6 p {
+        font-size: 15px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta5 p{font-size: 15px;}
+
+@media screen and (max-width:875px) {
+    .carta6 {
+        height: 300px;
+        width: 226px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta5 {height: 290px;
-    width: 205px;}
+
+@media screen and (max-width:839px) {
+    .carta1 img {
+        width: 200px;
+        height: 200px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta6 img{width: 200px;
-    height: 200px;}
+
+@media screen and (max-width:839px) {
+    .carta1 h3 {
+        font-size: 20px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta6 h3{font-size: 20px;}
+
+@media screen and (max-width:839px) {
+    .carta1 p {
+        font-size: 15px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta6 p{font-size: 15px;}
+
+@media screen and (max-width:839px) {
+    .carta1 {
+        height: 290px;
+        width: 205px;
+    }
 }
-@media screen and (max-width:839px){
-    .carta6 {height: 290px;
-    width: 205px;}
+
+@media screen and (max-width:839px) {
+    .carta2 img {
+        width: 200px;
+        height: 200px;
+    }
 }
-@media screen and (max-width:839px){
-    .cta{display: flex;
-    flex-direction: column;
-padding-left: 50px;
-padding-right: 50px;
-margin-bottom: 50px;}
+
+@media screen and (max-width:839px) {
+    .carta2 h3 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .carta2 p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .carta2 {
+        height: 290px;
+        width: 205px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .carta3 img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .carta3 h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .carta3 p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .carta3 {
+        height: 290px;
+        width: 205px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .carta4 img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .carta4 h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .carta4 p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .carta4 {
+        height: 290px;
+        width: 205px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .carta5 img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .carta5 h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .carta5 p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .carta5 {
+        height: 290px;
+        width: 205px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .carta6 img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .carta6 h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .carta6 p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .carta6 {
+        height: 290px;
+        width: 205px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .cta {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 50px;
+    }
 }
 
 
@@ -1488,42 +1863,57 @@ margin-bottom: 50px;}
         padding-right: 100px;
     }
 }
-@media screen and (max-width:781px){
-    .carta1 {padding-left: 0px;
-    margin-left: 0px;}
-}
-@media screen and (max-width:781px){
-    .carta2 {padding-left: 0px;
-    margin-left: 0px;}
-}
-@media screen and (max-width:781px){
-    .carta4 {padding-left: 0px;
-    margin-left: 0px;}
-}
-@media screen and (max-width:781px){
-    .carta5 {padding-left: 0px;
-    margin-left: 0px;}
-}
-@media screen and (max-width:770px){
-    .blogs img{
-        width: 180px;
-        height: 180px;
+
+@media screen and (max-width:781px) {
+    .carta1 {
+        padding-left: 0px;
+        margin-left: 0px;
     }
 }
-@media screen and (max-width:770px){
-    .blogs1 img{
-        width: 180px;
-        height: 180px;
+
+@media screen and (max-width:781px) {
+    .carta2 {
+        padding-left: 0px;
+        margin-left: 0px;
     }
 }
-@media screen and (max-width:770px){
-    .blogs2 img{
+
+@media screen and (max-width:781px) {
+    .carta4 {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:781px) {
+    .carta5 {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .blogs img {
         width: 180px;
         height: 180px;
     }
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:770px) {
+    .blogs1 img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .blogs2 img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width:700px) {
     .texto1 {
         width: 930px;
         height: 222px;
@@ -1544,69 +1934,108 @@ margin-bottom: 50px;}
     }
 }
 
-@media screen and (max-width:724px){
-    .carta1 img{width: 200px;
-    height: 200px;}
-}
-@media screen and (max-width:724px){
-    .carta1 h3{font-size: 20px;}
-}
-@media screen and (max-width:724px){
-    .carta1 p{font-size: 15px;}
-}
-@media screen and (max-width:724px){
-    .carta1 {height: 290px;
-    width: 205px;}
-}
-
-@media screen and (max-width:724px){
-    .carta2 img{width: 200px;
-    height: 200px;}
-}
-@media screen and (max-width:724px){
-    .carta2 h3{font-size: 20px;}
-}
-@media screen and (max-width:724px){
-    .carta2 p{font-size: 15px;}
-}
-@media screen and (max-width:724px){
-    .carta2 {height: 290px;
-    width: 208px;}
-}
-@media screen and (max-width:724px){
-    .carta3 img{width: 200px;
-    height: 200px;}
-}
-@media screen and (max-width:710px){
-    .carta3{display: none;}
-}
-@media screen and (max-width: 710px){
-    .carta1{margin-right: 30px;
+@media screen and (max-width:724px) {
+    .carta1 img {
+        width: 200px;
+        height: 200px;
     }
 }
 
-@media screen and (max-width:710px){
-    .carta6{display: none;}
-}
-@media screen and (max-width: 710px){
-    .carta4{margin-right: 30px;
+@media screen and (max-width:724px) {
+    .carta1 h3 {
+        font-size: 20px;
     }
 }
 
-@media screen and (max-width:622px){
-    .cta{display: flex;
-    flex-direction: column;
-padding-left: 50px;
-padding-right: 50px;
-margin-bottom: 90px;}
+@media screen and (max-width:724px) {
+    .carta1 p {
+        font-size: 15px;
+    }
 }
-@media screen and (max-width:839px){
-    .cta1{
+
+@media screen and (max-width:724px) {
+    .carta1 {
+        height: 290px;
+        width: 205px;
+    }
+}
+
+@media screen and (max-width:724px) {
+    .carta2 img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:724px) {
+    .carta2 h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:724px) {
+    .carta2 p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:724px) {
+    .carta2 {
+        height: 290px;
+        width: 208px;
+    }
+}
+
+@media screen and (max-width:724px) {
+    .carta3 img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:710px) {
+    .carta3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .carta1 {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width:710px) {
+    .carta6 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .carta4 {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width:622px) {
+    .cta {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 90px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .cta1 {
         width: 100%;
     }
 }
-@media screen and (max-width:839px){
-    .cta1 h2{font-size: 25px;
+
+@media screen and (max-width:839px) {
+    .cta1 h2 {
+        font-size: 25px;
     }
 }
 

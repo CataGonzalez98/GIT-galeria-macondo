@@ -1,0 +1,13 @@
+//*? VARIABLES EN FOOTER
+$color-principal:black;
+$color-secundario:rgb(255, 238, 5);
+$color-terciario:white;
+
+//*? LISTAS FOOTER
+$colores: red, black, white, green, blue;
+
+//*? MIXIN FOOTER
+@mixin flex($flex, $direction){
+    display:$flex;
+    flex-direction: $direction;
+}

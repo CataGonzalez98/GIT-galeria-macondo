@@ -21,6 +21,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 2s;
+
+    &:hover {
+        transform: scale(1.2)
+    }
 
     img {
         width: 300px;
@@ -45,6 +50,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 2s;
+
+    &:hover {
+        transform: scale(1.2)
+    }
 
     img {
         width: 300px;
@@ -69,6 +79,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 2s;
+
+    &:hover {
+        transform: scale(1.2)
+    }
 
     img {
         width: 300px;
@@ -108,6 +123,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 2s;
+
+    &:hover {
+        transform: scale(1.2)
+    }
 
     img {
         width: 300px;
@@ -132,6 +152,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 2s;
+
+    &:hover {
+        transform: scale(1.2)
+    }
 
     img {
         width: 300px;
@@ -156,6 +181,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 2s;
+
+    &:hover {
+        transform: scale(1.2)
+    }
+
 
     img {
         width: 300px;
@@ -191,4 +222,12 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     height: 150px;
+
+    div {
+        p {
+            padding-left: 40px;
+            padding-right: 20px;
+            padding-top: 30px;
+        }
+    }
 }

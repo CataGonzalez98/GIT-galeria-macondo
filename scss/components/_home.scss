@@ -82,6 +82,7 @@
              text-align: center;
              justify-content: space-around;
              text-decoration: none;
+             transition:1s
          }
         }
      }
@@ -138,6 +139,7 @@
 
          a {
              color: rgb(255, 238, 5);
+             transition:1s
          }
      }
  }
@@ -177,6 +179,7 @@
          display: flex;
          flex-direction: column;
          padding-top: 40px;
+         transition:1s
      }
  }
 
@@ -215,6 +218,7 @@
          display: flex;
          flex-direction: column;
          padding-top: 40px;
+         transition:1s
      }
 
  }
@@ -273,8 +277,8 @@
  }
 
  .footer {
-     background-color: black;
-     color: white;
+     background-color: $color-principal;
+     color: $color-terciario;
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
      grid-template-rows: 1fr 1fr 1fr;
@@ -283,21 +287,21 @@
      height: 250px;
 
      h3 {
-         color: rgb(255, 238, 5);
+         color: $color-secundario;
          font-size: 40px;
      }
 
      div {
          h3 {
-             color: rgb(255, 238, 5);
+             color: $color-secundario;
              font-size: 40px;
          }
 
          a {
-             color: white;
+             color: nth($colores, 3);
 
              &:hover {
-                 color: rgb(255, 238, 5);
+                 color: $color-secundario;
              }
          }
      }
@@ -309,8 +313,7 @@
 
  .social {
      padding-left: 80px;
-     display: flex;
-     flex-direction: column;
+     @include flex(flex,column);
 
      a {
          color: white;
