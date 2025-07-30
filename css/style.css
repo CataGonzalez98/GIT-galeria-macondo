@@ -23,8 +23,8 @@ header nav ul li a {
 }
 
 header h1 {
-    font-size: 80px;
-    font-weight: 900px;
+    font-size: 50px;
+    font-weight: 400px;
     color: rgb(255, 238, 5);
 }
 
@@ -249,8 +249,8 @@ header nav ul li a:hover {
 .blog h2 {
     color: rgb(255, 238, 5);
     text-align: center;
-    margin: 50px;
-    width: 300px;
+    margin: 10px;
+    width: 100px;
     height: 450px;
     font-size: 40px;
     display: flex;
@@ -263,9 +263,10 @@ header nav ul li a:hover {
 }
 
 .blog {
-    display: flex;
-    background-color: white;
-    color: black;
+display: grid;
+  grid-template-columns: 0.2fr 1fr 1fr 1fr;
+  background-color: white;
+  color: black;
 }
 
 .blog a {
@@ -774,6 +775,20 @@ header nav ul li a:hover {
 
 .blogs2 div button {
     background-color: rgb(253, 247, 156);
+}
+
+@media screen and (max-width: 1200px) {
+    .texto1{text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 105%;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+.header div h1{font-size: 20px;}
 }
 
 @media screen and (max-width: 1000px) {
@@ -1349,6 +1364,9 @@ header nav ul li a:hover {
         width: 235px;
     }
 }
+@media screen and (max-width: 919px){
+  .navbar{width: 100%;
+  background-color: black;}}
 
 @media screen and (max-width:919px) {
     .texto1 {
@@ -1918,6 +1936,7 @@ header nav ul li a:hover {
         height: 180px;
     }
 }
+
 
 @media screen and (max-width:700px) {
     .texto1 {
