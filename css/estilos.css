@@ -313,7 +313,6 @@
   border: solid 3px rgb(255, 238, 5);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   width: 95%;
   height: 400px;
   margin-bottom: 20px;
@@ -330,12 +329,14 @@
 .intro div h2 {
   font-size: 60px;
 }
+.intro p {
+    padding-left: 30px;
+}
 
 .mision {
   border: solid 3px rgb(255, 238, 5);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   width: 95%;
   height: 400px;
   margin-bottom: 20px;
@@ -351,13 +352,17 @@
 
 .mision div h2 {
   font-size: 60px;
+  padding-left: 30px;
 }
+.mision p {
+    padding-left: 30px;
+}
+
 
 .vision {
   border: solid 3px rgb(255, 238, 5);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   width: 95%;
   height: 400px;
   margin-bottom: 20px;
@@ -732,8 +737,12 @@
         width: 105%;
     }
 }
-@media screen and (max-width: 1200px){
-  .intro div{display: none;}
+
+
+@media screen and (max-width: 1155px){
+  .intro div p{
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -1720,6 +1729,11 @@ font-size: 25px;
     font-size: 15px;
   }
 }
+@media screen and (max-width: 875px){
+  .intro div p{
+    width: 300px;
+  }
+}
 
 
 @media screen and (max-width: 875px) {
@@ -1926,7 +1940,7 @@ font-size: 25px;
     display: flex;
     flex-direction: column;
     width: 750px;
-    height: 600px;
+    height: 700px;
   }
 }
 
@@ -1960,6 +1974,7 @@ font-size: 25px;
     align-items: center;
     justify-content: center;
     margin-left: 90px;
+    width: 444px;
   }
 }
 
