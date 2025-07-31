@@ -263,10 +263,10 @@ header nav ul li a:hover {
 }
 
 .blog {
-display: grid;
-  grid-template-columns: 0.2fr 1fr 1fr 1fr;
-  background-color: white;
-  color: black;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 1fr 1fr;
+    background-color: white;
+    color: black;
 }
 
 .blog a {
@@ -315,11 +315,12 @@ display: grid;
     padding-left: 80px;
     padding-top: 40px;
     height: 250px;
+    width: 100%;
 }
 
-.footer h3 {
+.footer div h3 {
     color: rgb(255, 238, 5);
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .footer ul li a {
@@ -377,6 +378,7 @@ display: grid;
     font-size: 60px;
     padding-left: 30px;
 }
+
 .intro p {
     padding-left: 30px;
 }
@@ -403,7 +405,10 @@ display: grid;
     font-size: 60px;
     padding-left: 30px;
 }
-.mision p{padding-left: 30px;}
+
+.mision p {
+    padding-left: 30px;
+}
 
 .vision {
     border: solid 3px rgb(255, 238, 5);
@@ -426,7 +431,10 @@ display: grid;
     font-size: 60px;
     padding-left: 30px;
 }
-.vision p{padding-left: 30px;}
+
+.vision p {
+    padding-left: 30px;
+}
 
 .headline3 {
     background-color: rgb(255, 238, 5);
@@ -737,6 +745,7 @@ display: grid;
     grid-template-rows: 1fr;
     padding-bottom: 30px;
     padding-left: 80px;
+    margin-top: 30px;
 }
 
 .blogs1 img {
@@ -784,7 +793,8 @@ display: grid;
 }
 
 @media screen and (max-width: 1200px) {
-    .texto1{text-align: center;
+    .texto1 {
+        text-align: center;
         padding-right: 10px;
         padding-left: 10px;
         width: 105%;
@@ -792,1520 +802,1664 @@ display: grid;
 }
 
 
-@media screen and (max-width: 1155px){
-  .intro div p{
-    width: 400px;
-  }
+@media screen and (max-width: 1155px) {
+    .intro div p {
+        width: 400px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-.nosotros {
-    width: 100%;
-    height: 200px;
-  }
-}
-@media screen and (max-width: 1000px) {
-.texto1 {
-    width: 105%;
-    height: 200px;
-  }
+    .nosotros {
+        width: 100%;
+        height: 200px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta1 {
-    width: 268px;
-    height: 310px;
-  }
+    .texto1 {
+        width: 105%;
+        height: 200px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta1 img {
-    width: 260px;
-    height: 260px;
-  }
+    .carta1 {
+        width: 268px;
+        height: 310px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta1 h3 {
-    font-size: 20px;
-  }
+    .carta1 img {
+        width: 260px;
+        height: 260px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta1 p {
-    font-size: 15px;
-  }
+    .carta1 h3 {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta2 {
-    width: 268px;
-    height: 310px;
-  }
+    .carta1 p {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta2 img {
-    width: 260px;
-    height: 260px;
-  }
+    .carta2 {
+        width: 268px;
+        height: 310px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta2 h3 {
-    font-size: 20px;
-  }
+    .carta2 img {
+        width: 260px;
+        height: 260px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta2 p {
-    font-size: 15px;
-  }
+    .carta2 h3 {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta3 {
-    width: 270px;
-    height: 310px;
-  }
+    .carta2 p {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta3 img {
-    width: 260px;
-    height: 260px;
-  }
+    .carta3 {
+        width: 270px;
+        height: 310px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta3 h3 {
-    font-size: 20px;
-  }
+    .carta3 img {
+        width: 260px;
+        height: 260px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta3 p {
-    font-size: 14px;
-  }
+    .carta3 h3 {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta4 {
-    width: 270px;
-    height: 310px;
-  }
+    .carta3 p {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta4 img {
-    width: 260px;
-    height: 260px;
-  }
+    .carta4 {
+        width: 270px;
+        height: 310px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta4 h3 {
-    font-size: 20px;
-  }
+    .carta4 img {
+        width: 260px;
+        height: 260px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta4 p {
-    font-size: 14px;
-  }
+    .carta4 h3 {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta5 {
-    width: 270px;
-    height: 310px;
-  }
+    .carta4 p {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta5 img {
-    width: 260px;
-    height: 260px;
-  }
+    .carta5 {
+        width: 270px;
+        height: 310px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta5 h3 {
-    font-size: 20px;
-  }
+    .carta5 img {
+        width: 260px;
+        height: 260px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta5 p {
-    font-size: 14px;
-  }
+    .carta5 h3 {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta6 {
-    width: 270px;
-    height: 310px;
-  }
+    .carta5 p {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta6 img {
-    width: 260px;
-    height: 260px;
-  }
+    .carta6 {
+        width: 270px;
+        height: 310px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta6 h3 {
-    font-size: 20px;
-  }
+    .carta6 img {
+        width: 260px;
+        height: 260px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .carta6 p {
-    font-size: 14px;
-  }
+    .carta6 h3 {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .blogs img {
-    width: 250px;
-    height: 250px;
-  }
+    .carta6 p {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .blogs1 img {
-    width: 250px;
-    height: 250px;
-  }
+    .blogs img {
+        width: 250px;
+        height: 250px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .blogs2 img {
-    width: 250px;
-    height: 250px;
-  }
+    .blogs1 img {
+        width: 250px;
+        height: 250px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-.header div h1{font-size: 20px;}
-}
-@media screen and (max-width: 992px){
-  header div h1{font-size: 40px;
-  }
-}
-@media screen and (max-width: 992px){
-  .nosotros{width: 95%;
-  height: 220px;}
-}
-@media screen and (max-width: 992px){
-  .nosotros div h2{font-size: 40px;}
-}
-@media screen and (max-width: 992px){
-  .texto1{width: 110%;
-  height: 220px;}
+    .blogs2 img {
+        width: 250px;
+        height: 250px;
+    }
 }
 
-@media screen and (max-width: 992px){
-  .exhibiciones div h2{
-    font-size: 30px;}
-}
-@media screen and (max-width: 992px){
-  .card1{
-height: 300px;
-  }
+@media screen and (max-width: 1000px) {
+    .header div h1 {
+        font-size: 20px;
+    }
 }
 
-@media screen and (max-width: 992px){
-  .card1 h3{
-font-size: 25px;
 
-  }
-}
-@media screen and (max-width: 992px){
-  .card1 img{
-height: 250px;
-width: 222px;
-  }
-}
-@media screen and (max-width: 992px){
-  .card2 img{
-height: 250px;
-width: 222px;
-  }
+@media screen and (max-width: 992px) {
+    header div h1 {
+        font-size: 40px;
+    }
 }
 
-@media screen and (max-width: 992px){
-  .card2{
-height: 300px;
-  }
+@media screen and (max-width: 992px) {
+    .nosotros {
+        width: 95%;
+        height: 220px;
+    }
 }
 
-@media screen and (max-width: 992px){
-  .card2 h3{
-font-size: 25px;
-
-  }
-}
-@media screen and (max-width: 992px){
-  .card3 img{
-height: 250px;
-width: 222px;
-  }
-}
-@media screen and (max-width: 992px){
-  .card3{
-height: 300px;
-  }
+@media screen and (max-width: 992px) {
+    .nosotros div h2 {
+        font-size: 40px;
+    }
 }
 
-@media screen and (max-width: 992px){
-  .card3 h3{
-font-size: 25px;
-
-  }
+@media screen and (max-width: 992px) {
+    .texto1 {
+        width: 110%;
+        height: 220px;
+    }
 }
 
-@media screen and (max-width: 992px){
-  .blog img {
-    width: 220px;
-    height: 220px;
-  }
-   }
+@media screen and (max-width: 992px) {
+    .exhibiciones div h2 {
+        font-size: 30px;
+    }
+}
 
-   @media screen and (max-width: 992px){
-  .blog1{
-    width: 222px;
-    height: 500px;
-  }
-   }
-     @media screen and (max-width: 992px){
-      .blog1 p{font-size: 15px;
-      padding: 5px 5px 5px;}
-     }
-   
-   @media screen and (max-width: 992px){
-  .blog .blog2{
-    width: 222px;
-    height: 500px;
-  }
-   }
-   @media screen and (max-width: 992px){
-      .blog2 p{font-size: 15px;
-      padding: 5px 5px 5px;}
-     }
-   
-   @media screen and (max-width: 992px){
-  .blog .blog3{
-    width: 222px;
-    height: 500px;
-  }
-   } 
-   @media screen and (max-width: 992px){
-      .blog3 p{font-size: 15px;
-      padding: 5px 5px 5px;}
-     }
+@media screen and (max-width: 992px) {
+    .card1 {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .card1 h3 {
+        font-size: 25px;
+
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .card1 img {
+        height: 250px;
+        width: 222px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .card2 img {
+        height: 250px;
+        width: 222px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .card2 {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .card2 h3 {
+        font-size: 25px;
+
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .card3 img {
+        height: 250px;
+        width: 222px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .card3 {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .card3 h3 {
+        font-size: 25px;
+
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .blog img {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .blog1 {
+        width: 222px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .blog1 p {
+        font-size: 15px;
+        padding: 5px 5px 5px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .blog .blog2 {
+        width: 222px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .blog2 p {
+        font-size: 15px;
+        padding: 5px 5px 5px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .blog .blog3 {
+        width: 222px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .blog3 p {
+        font-size: 15px;
+        padding: 5px 5px 5px;
+    }
+}
 
 @media screen and (max-width: 984px) {
-  .nosotros {
-    display: flex;
-    width: 100%;
-    height: 300px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-
-@media screen and (max-width: 984px) {
-  .texto1 {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    width: 100%;
-    height: 150px;
-    margin-left: 50px;
-    margin-right: 30px;
-  }
-}
-
-
-@media screen and (max-width: 984px) {
-  .exhibiciones {
-    font-size: 10px;
-  }
-}
-
-
-@media screen and (max-width: 984px) {
-  .exhibiciones h2 {
-    height: 100px;
-    font-size: 40px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 20px;
-    padding-top: 30px;
-  }
-}
-
-
-@media screen and (max-width: 984px) {
-  .exhibiciones h3 {
-    font-size: 12px;
-  }
+    .nosotros {
+        display: flex;
+        width: 100%;
+        height: 300px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .actual {
-    column-gap: 0px;
-  }
+    .texto1 {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        width: 100%;
+        height: 150px;
+        margin-left: 50px;
+        margin-right: 30px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .carta1 {
-    padding-right: 0px;
-    margin-left: 40px;
-  }
+    .exhibiciones {
+        font-size: 10px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .carta2 {
-    margin-right: 10px;
-    margin-left: 30px;
-  }
+    .exhibiciones h2 {
+        height: 100px;
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        padding-top: 30px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .pasado {
-    column-gap: 0px;
-  }
+    .exhibiciones h3 {
+        font-size: 12px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .carta4 {
-    padding-right: 0px;
-    margin-left: 40px;
-  }
+    .actual {
+        column-gap: 0px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .carta5 {
-    margin-right: 10px;
-    margin-left: 30px;
-  }
-}
-
-@media screen and (max-width: 984px) {
-  .ex {
-    gap: 1rem;
-    flex-direction: row;
-    justify-content: center;
-    padding: 1rem;
-  }
+    .carta1 {
+        padding-right: 0px;
+        margin-left: 40px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .card1 img {
-    width: 200px;
-  }
+    .carta2 {
+        margin-right: 10px;
+        margin-left: 30px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .card2 img {
-    width: 200px;
-  }
+    .pasado {
+        column-gap: 0px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .card3 img {
-    width: 200px;
-  }
+    .carta4 {
+        padding-right: 0px;
+        margin-left: 40px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .blog h2 {
-    font-size: 30px;
-    height: 10px;
-    width: 100%;
-    margin-top: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 3px;
-    margin-left: 5px;
-  }
+    .carta5 {
+        margin-right: 10px;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 984px) {
+    .ex {
+        gap: 1rem;
+        flex-direction: row;
+        justify-content: center;
+        padding: 1rem;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .footer {
-    padding-left: 30px;
-    height: 300px;
-  }
+    .card1 img {
+        width: 200px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .footer h3 {
-    font-size: 30px;
-  }
+    .card2 img {
+        width: 200px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .intro div h2 {
-    font-size: 35px;
-    align-items: center;
-    justify-content: center;
-  }
+    .card3 img {
+        width: 200px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .intro img {
-    width: 400px;
-    height: 300px;
-    padding-right: 30px;
-  }
+    .blog h2 {
+        font-size: 30px;
+        height: 10px;
+        width: 100%;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 3px;
+        margin-left: 5px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .mision div h2 {
-    font-size: 35px;
-    align-items: center;
-    justify-content: center;
-  }
+    .footer {
+        padding-left: 30px;
+        height: 300px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .mision img {
-    width: 400px;
-    height: 300px;
-    padding-right: 30px;
-  }
+    .footer div h3 {
+        font-size: 30px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .vision div h2 {
-    font-size: 35px;
-    align-items: center;
-    justify-content: center;
-  }
+    .intro div h2 {
+        font-size: 35px;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .vision img {
-    width: 400px;
-    height: 300px;
-    padding-right: 30px;
-  }
+    .intro img {
+        width: 400px;
+        height: 300px;
+        padding-right: 30px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .carta2 {
-    margin-left: 20px;
-  }
+    .mision div h2 {
+        font-size: 35px;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .carta5 {
-    margin-left: 20px;
-  }
+    .mision img {
+        width: 400px;
+        height: 300px;
+        padding-right: 30px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .cta1 h2 {
-    font-size: 30px;
-  }
+    .vision div h2 {
+        font-size: 35px;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .b5 {
-    margin-left: 30px;
-  }
+    .vision img {
+        width: 400px;
+        height: 300px;
+        padding-right: 30px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .blog9 {
-    display: none;
-  }
+    .carta2 {
+        margin-left: 20px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .blog8 {
-    margin-left: 30px;
-  }
+    .carta5 {
+        margin-left: 20px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .contacto1 {
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-  }
+    .cta1 h2 {
+        font-size: 30px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .ubicacion {
-    display: flex;
-    flex-direction: column;
-    height: 600px;
-  }
+    .b5 {
+        margin-left: 30px;
+    }
 }
 
 
 @media screen and (max-width: 984px) {
-  .ubicacion iframe {
-    width: 80%;
-    height: 80%;
-    margin-left: 30px;
-  }
+    .blog9 {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 984px) {
+    .blog8 {
+        margin-left: 30px;
+    }
+}
+
+
+@media screen and (max-width: 984px) {
+    .contacto1 {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+    }
+}
+
+
+@media screen and (max-width: 984px) {
+    .ubicacion {
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+    }
+}
+
+
+@media screen and (max-width: 984px) {
+    .ubicacion iframe {
+        width: 80%;
+        height: 80%;
+        margin-left: 30px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta1 img {
-    width: 230px;
-    height: 220px;
-  }
+    .carta1 img {
+        width: 230px;
+        height: 220px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta1 h3 {
-    font-size: 20px;
-  }
+    .carta1 h3 {
+        font-size: 20px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta1 p {
-    font-size: 15px;
-  }
+    .carta1 p {
+        font-size: 15px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta1 {
-    height: 333px;
-    width: 235px;
-  }
+    .carta1 {
+        height: 333px;
+        width: 235px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta2 img {
-    width: 230px;
-    height: 220px;
-  }
+    .carta2 img {
+        width: 230px;
+        height: 220px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta2 h3 {
-    font-size: 20px;
-  }
+    .carta2 h3 {
+        font-size: 20px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta2 p {
-    font-size: 15px;
-  }
+    .carta2 p {
+        font-size: 15px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta2 {
-    height: 333px;
-    width: 235px;
-  }
+    .carta2 {
+        height: 333px;
+        width: 235px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta3 img {
-    width: 230px;
-    height: 220px;
-  }
+    .carta3 img {
+        width: 230px;
+        height: 220px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta3 h3 {
-    font-size: 20px;
-  }
+    .carta3 h3 {
+        font-size: 20px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta3 p {
-    font-size: 15px;
-  }
+    .carta3 p {
+        font-size: 15px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta3 {
-    height: 333px;
-    width: 235px;
-  }
+    .carta3 {
+        height: 333px;
+        width: 235px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta4 img {
-    width: 230px;
-    height: 220px;
-  }
+    .carta4 img {
+        width: 230px;
+        height: 220px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta4 h3 {
-    font-size: 20px;
-  }
+    .carta4 h3 {
+        font-size: 20px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta4 p {
-    font-size: 15px;
-  }
+    .carta4 p {
+        font-size: 15px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta4 {
-    height: 333px;
-    width: 235px;
-  }
+    .carta4 {
+        height: 333px;
+        width: 235px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta5 img {
-    width: 230px;
-    height: 220px;
-  }
+    .carta5 img {
+        width: 230px;
+        height: 220px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta5 h3 {
-    font-size: 20px;
-  }
+    .carta5 h3 {
+        font-size: 20px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta5 p {
-    font-size: 15px;
-  }
+    .carta5 p {
+        font-size: 15px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta5 {
-    height: 333px;
-    width: 235px;
-  }
+    .carta5 {
+        height: 333px;
+        width: 235px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta6 img {
-    width: 230px;
-    height: 220px;
-  }
+    .carta6 img {
+        width: 230px;
+        height: 220px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta6 h3 {
-    font-size: 20px;
-  }
+    .carta6 h3 {
+        font-size: 20px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta6 p {
-    font-size: 15px;
-  }
+    .carta6 p {
+        font-size: 15px;
+    }
 }
 
 
 @media screen and (max-width: 966px) {
-  .carta6 {
-    height: 333px;
-    width: 235px;
-  }
+    .carta6 {
+        height: 333px;
+        width: 235px;
+    }
 }
 
 
 @media screen and (max-width: 919px) {
-  .texto1 {
-    width: 100%;
-    height: 150px;
-    padding-left: 80px;
-    padding-right: 80px;
-  }
+    .texto1 {
+        width: 100%;
+        height: 150px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
 }
 
 
 @media screen and (max-width: 919px) {
-  .nosotros {
-    height: 250px;
-    margin-bottom: 20px;
-  }
+    .nosotros {
+        height: 250px;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 889px) {
-  .blogs img {
-    width: 200px;
-    height: 200px;
-  }
-}
-
-
-@media screen and (max-width: 889px) {
-  .blogs1 img {
-    width: 200px;
-    height: 200px;
-  }
+    .blogs img {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 
 @media screen and (max-width: 889px) {
-  .blogs2 img {
-    width: 200px;
-    height: 200px;
-  }
+    .blogs1 img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width: 889px) {
+    .blogs2 img {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta1 img {
-    width: 220px;
-    height: 210px;
-  }
+    .carta1 img {
+        width: 220px;
+        height: 210px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta1 h3 {
-    font-size: 20px;
-  }
+    .carta1 h3 {
+        font-size: 20px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta1 p {
-    font-size: 15px;
-  }
+    .carta1 p {
+        font-size: 15px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta1 {
-    height: 300px;
-    width: 226px;
-  }
+    .carta1 {
+        height: 300px;
+        width: 226px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta2 img {
-    width: 220px;
-    height: 210px;
-  }
+    .carta2 img {
+        width: 220px;
+        height: 210px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta2 h3 {
-    font-size: 20px;
-  }
+    .carta2 h3 {
+        font-size: 20px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta2 p {
-    font-size: 15px;
-  }
+    .carta2 p {
+        font-size: 15px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta2 {
-    height: 300px;
-    width: 226px;
-  }
+    .carta2 {
+        height: 300px;
+        width: 226px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta3 img {
-    width: 220px;
-    height: 210px;
-  }
+    .carta3 img {
+        width: 220px;
+        height: 210px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta3 h3 {
-    font-size: 20px;
-  }
+    .carta3 h3 {
+        font-size: 20px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta3 p {
-    font-size: 15px;
-  }
+    .carta3 p {
+        font-size: 15px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta3 {
-    height: 300px;
-    width: 226px;
-  }
+    .carta3 {
+        height: 300px;
+        width: 226px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta4 img {
-    width: 220px;
-    height: 210px;
-  }
+    .carta4 img {
+        width: 220px;
+        height: 210px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta4 h3 {
-    font-size: 20px;
-  }
+    .carta4 h3 {
+        font-size: 20px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta4 p {
-    font-size: 15px;
-  }
+    .carta4 p {
+        font-size: 15px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta4 {
-    height: 300px;
-    width: 226px;
-  }
+    .carta4 {
+        height: 300px;
+        width: 226px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta5 img {
-    width: 220px;
-    height: 210px;
-  }
+    .carta5 img {
+        width: 220px;
+        height: 210px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta5 h3 {
-    font-size: 20px;
-  }
+    .carta5 h3 {
+        font-size: 20px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta5 p {
-    font-size: 15px;
-  }
+    .carta5 p {
+        font-size: 15px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta5 {
-    height: 300px;
-    width: 226px;
-  }
+    .carta5 {
+        height: 300px;
+        width: 226px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta6 img {
-    width: 220px;
-    height: 210px;
-  }
+    .carta6 img {
+        width: 220px;
+        height: 210px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta6 h3 {
-    font-size: 20px;
-  }
+    .carta6 h3 {
+        font-size: 20px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta6 p {
-    font-size: 15px;
-  }
+    .carta6 p {
+        font-size: 15px;
+    }
 }
-@media screen and (max-width: 875px){
-  .intro div p{
-    width: 300px;
-  }
+
+@media screen and (max-width: 875px) {
+    .intro div p {
+        width: 300px;
+    }
 }
 
 
 @media screen and (max-width: 875px) {
-  .carta6 {
-    height: 300px;
-    width: 226px;
-  }
+    .carta6 {
+        height: 300px;
+        width: 226px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta1 img {
-    width: 200px;
-    height: 200px;
-  }
+    .carta1 img {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta1 h3 {
-    font-size: 20px;
-  }
+    .carta1 h3 {
+        font-size: 20px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta1 p {
-    font-size: 15px;
-  }
+    .carta1 p {
+        font-size: 15px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta1 {
-    height: 290px;
-    width: 205px;
-  }
+    .carta1 {
+        height: 290px;
+        width: 205px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta2 img {
-    width: 200px;
-    height: 200px;
-  }
+    .carta2 img {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta2 h3 {
-    font-size: 18px;
-  }
+    .carta2 h3 {
+        font-size: 18px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta2 p {
-    font-size: 15px;
-  }
+    .carta2 p {
+        font-size: 15px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta2 {
-    height: 290px;
-    width: 205px;
-  }
+    .carta2 {
+        height: 290px;
+        width: 205px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta3 img {
-    width: 200px;
-    height: 200px;
-  }
+    .carta3 img {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta3 h3 {
-    font-size: 20px;
-  }
+    .carta3 h3 {
+        font-size: 20px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta3 p {
-    font-size: 15px;
-  }
+    .carta3 p {
+        font-size: 15px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta3 {
-    height: 290px;
-    width: 205px;
-  }
+    .carta3 {
+        height: 290px;
+        width: 205px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta4 img {
-    width: 200px;
-    height: 200px;
-  }
+    .carta4 img {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta4 h3 {
-    font-size: 20px;
-  }
+    .carta4 h3 {
+        font-size: 20px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta4 p {
-    font-size: 15px;
-  }
+    .carta4 p {
+        font-size: 15px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta4 {
-    height: 290px;
-    width: 205px;
-  }
+    .carta4 {
+        height: 290px;
+        width: 205px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta5 img {
-    width: 200px;
-    height: 200px;
-  }
+    .carta5 img {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta5 h3 {
-    font-size: 20px;
-  }
+    .carta5 h3 {
+        font-size: 20px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta5 p {
-    font-size: 15px;
-  }
+    .carta5 p {
+        font-size: 15px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta5 {
-    height: 290px;
-    width: 205px;
-  }
+    .carta5 {
+        height: 290px;
+        width: 205px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta6 img {
-    width: 200px;
-    height: 200px;
-  }
+    .carta6 img {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta6 h3 {
-    font-size: 20px;
-  }
+    .carta6 h3 {
+        font-size: 20px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta6 p {
-    font-size: 15px;
-  }
+    .carta6 p {
+        font-size: 15px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .carta6 {
-    height: 290px;
-    width: 205px;
-  }
+    .carta6 {
+        height: 290px;
+        width: 205px;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .cta {
-    display: flex;
-    flex-direction: column;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-bottom: 50px;
-  }
+    .cta {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .carta1 img {
+        height: 138px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .carta2 img {
+        height: 138px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .carta3 img {
+        height: 138px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .carta4 img {
+        height: 138px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .carta5 img {
+        height: 138px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .carta6 img {
+        height: 138px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cta {
+        margin-bottom: 100px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 824px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        width: 750px;
+        height: 700px;
+    }
 }
 
 
 @media screen and (max-width: 824px) {
-  .intro {
-    display: flex;
-    flex-direction: column;
-    width: 750px;
-    height: 700px;
-  }
+    .intro img {
+        margin-left: 90px;
+        margin-bottom: 20px;
+        width: 500px;
+    }
 }
 
 
 @media screen and (max-width: 824px) {
-  .intro img {
-    margin-left: 90px;
-    margin-bottom: 20px;
-    width: 500px;
-  }
+    .intro div h2 {
+        font-size: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 60px;
+    }
 }
 
 
 @media screen and (max-width: 824px) {
-  .intro div h2 {
-    font-size: 35px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 60px;
-  }
+    .intro div p {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 90px;
+        width: 444px;
+    }
 }
 
 
 @media screen and (max-width: 824px) {
-  .intro div p {
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 90px;
-    width: 444px;
-  }
+    .mision {
+        display: flex;
+        flex-direction: column;
+        width: 750px;
+        height: 600px;
+    }
 }
 
 
 @media screen and (max-width: 824px) {
-  .mision {
-    display: flex;
-    flex-direction: column;
-    width: 750px;
-    height: 600px;
-  }
+    .mision img {
+        margin-left: 90px;
+        margin-bottom: 20px;
+        width: 500px;
+    }
 }
 
 
 @media screen and (max-width: 824px) {
-  .mision img {
-    margin-left: 90px;
-    margin-bottom: 20px;
-    width: 500px;
-  }
+    .mision div h2 {
+        font-size: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 60px;
+    }
 }
 
 
 @media screen and (max-width: 824px) {
-  .mision div h2 {
-    font-size: 35px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 60px;
-  }
+    .mision div p {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 90px;
+    }
 }
 
 
 @media screen and (max-width: 824px) {
-  .mision div p {
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 90px;
-  }
+    .vision {
+        display: flex;
+        flex-direction: column;
+        width: 750px;
+        height: 600px;
+    }
 }
 
 
 @media screen and (max-width: 824px) {
-  .vision {
-    display: flex;
-    flex-direction: column;
-    width: 750px;
-    height: 600px;
-  }
+    .vision img {
+        margin-left: 90px;
+        margin-bottom: 20px;
+        width: 500px;
+    }
 }
 
 
 @media screen and (max-width: 824px) {
-  .vision img {
-    margin-left: 90px;
-    margin-bottom: 20px;
-    width: 500px;
-  }
+    .vision div h2 {
+        font-size: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 60px;
+    }
 }
 
 
 @media screen and (max-width: 824px) {
-  .vision div h2 {
-    font-size: 35px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 60px;
-  }
-}
-
-
-@media screen and (max-width: 824px) {
-  .vision div p {
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 90px;
-  }
+    .vision div p {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 90px;
+    }
 }
 
 
 @media screen and (max-width: 813px) {
-  .ex {
-    display: flex;
-    gap: 1rem;
-    flex-direction: row;
-    justify-content: center;
-    padding: 1rem;
-  }
+    .ex {
+        display: flex;
+        gap: 1rem;
+        flex-direction: row;
+        justify-content: center;
+        padding: 1rem;
+    }
 }
 
 
 @media screen and (max-width: 813px) {
-  .card1 {
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-    width: 300px;
-  }
+    .card1 {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 300px;
+    }
 }
 
 
 @media screen and (max-width: 813px) {
-  .card2 {
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-    width: 300px;
-  }
+    .card2 {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 300px;
+    }
 }
 
 
 @media screen and (max-width: 813px) {
-  .card3 {
-    display: none;
-  }
+    .card3 {
+        display: none;
+    }
 }
 
 
 @media screen and (max-width: 813px) {
-  .blog3 {
-    display: none;
-  }
+    .blog3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 813px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 813px) {
+    .mision {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 813px) {
+    .vision {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        height: 700px;
+    }
 }
 
 
 @media screen and (max-width: 775px) {
-  .texto1 {
-    width: 100%;
-    height: 150px;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
+    .texto1 {
+        width: 100%;
+        height: 150px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .mision {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .vision {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 781px) {
+    .carta1 {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
 }
 
 
 @media screen and (max-width: 781px) {
-  .carta1 {
-    padding-left: 0px;
-    margin-left: 0px;
-  }
+    .carta2 {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
 }
 
 
 @media screen and (max-width: 781px) {
-  .carta2 {
-    padding-left: 0px;
-    margin-left: 0px;
-  }
+    .carta4 {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
 }
 
 
 @media screen and (max-width: 781px) {
-  .carta4 {
-    padding-left: 0px;
-    margin-left: 0px;
-  }
-}
-
-
-@media screen and (max-width: 781px) {
-  .carta5 {
-    padding-left: 0px;
-    margin-left: 0px;
-  }
+    .carta5 {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
 }
 
 
 
 @media screen and (max-width: 770px) {
-  .blogs img {
-    width: 180px;
-    height: 180px;
-  }
+    .blogs img {
+        width: 180px;
+        height: 180px;
+    }
 }
 
 
 @media screen and (max-width: 770px) {
-  .blogs1 img {
-    width: 180px;
-    height: 180px;
-  }
+    .blogs1 img {
+        width: 180px;
+        height: 180px;
+    }
 }
 
 
 @media screen and (max-width: 770px) {
-  .blogs2 img {
-    width: 180px;
-    height: 180px;
-  }
+    .blogs2 img {
+        width: 180px;
+        height: 180px;
+    }
 }
 
- @media screen and (max-width: 768px){
-      .nosotros {
+@media screen and (max-width: 768px) {
+    .nosotros {
         height: 360px;
-      }
-     }
-      @media screen and (max-width: 768px){
-      .texto1 {
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .texto1 {
         height: 200px;
         width: 700px;
-      }
-     }
-     @media screen and (max-width: 768px){
-      .card1 img{
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card1 img {
         width: 250px;
-      }
-     }
-     @media screen and (max-width: 768px){
-      .card1{
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card1 {
         width: 300px;
         height: 600px;
-      }
-     }
- @media screen and (max-width: 768px){
-      .card2 img{
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card2 img {
         width: 250px;
         height: 300px;
-      }
-     }
-     @media screen and (max-width: 768px){
-      .card2{
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card2 {
         width: 300px;
         height: 600px;
-      }
-     }
-      @media screen and (max-width: 768px){
-      .card1 img{
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card1 img {
         width: 250px;
-      }
-     }
-     @media screen and (max-width: 768px){
-      .exhibiciones h3{
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .exhibiciones h3 {
         font-size: medium;
-      }
-     }
-@media screen and (max-width: 768px){
-  .blog{display: grid;
-    grid-template-columns: 0.5fr 1fr 1fr;
-
-  }
+    }
 }
 
-      @media screen and (max-width: 768px){
-     .blog img {
-    width: 250px;
-    height: 250px;
-  }
-   }
+@media screen and (max-width: 768px) {
+    .blog {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 1fr;
 
-   @media screen and (max-width: 768px){
-  .blog1{
-    width: 255px;
-    height: 500px;
-  }
-   }
-     @media screen and (max-width: 768px){
-      .blog1 p{font-size: 15px;
-      padding: 5px 5px 5px;}
-     }
-@media screen and (max-width: 768px){
-  .blog .blog2{
-    width: 255px;
-    height: 500px;
-  }
-   }
-     @media screen and (max-width: 768px){
-      .blog2 p{font-size: 15px;
-      padding: 5px 5px 5px;}
-     }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blog img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blog1 {
+        width: 255px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blog1 p {
+        font-size: 15px;
+        padding: 5px 5px 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blog .blog2 {
+        width: 255px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blog2 p {
+        font-size: 15px;
+        padding: 5px 5px 5px;
+    }
+}
 
 
 
@@ -2313,206 +2467,803 @@ font-size: 25px;
 
 
 @media screen and (max-width: 700px) {
-  .texto1 {
-    width: 100%;
-    height: 222px;
-    padding-left: 180px;
-    padding-right: 180px;
-  }
+    .texto1 {
+        width: 100%;
+        height: 222px;
+        padding-left: 180px;
+        padding-right: 180px;
+    }
 }
 
 
 
 
 @media screen and (max-width: 700px) {
-  .nosotros {
-    height: 330px;
-  }
+    .nosotros {
+        height: 330px;
+    }
 }
 
 
 @media screen and (max-width: 700px) {
-  .footer {
-    width: 700px;
-  }
+    .footer {
+        width: 700px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 724px) {
+    .carta1 h3 {
+        font-size: 20px;
+    }
 }
 
 
 @media screen and (max-width: 724px) {
-  .carta1 img {
-    width: 200px;
-    height: 200px;
-  }
+    .carta1 p {
+        font-size: 15px;
+    }
 }
 
 
 @media screen and (max-width: 724px) {
-  .carta1 h3 {
-    font-size: 20px;
-  }
+    .carta1 {
+        height: 290px;
+        width: 205px;
+    }
 }
 
 
 @media screen and (max-width: 724px) {
-  .carta1 p {
-    font-size: 15px;
-  }
+    .carta2 img {
+        width: 200px;
+        height: 140px;
+    }
 }
 
 
 @media screen and (max-width: 724px) {
-  .carta1 {
-    height: 290px;
-    width: 205px;
-  }
+    .carta2 h3 {
+        font-size: 20px;
+    }
 }
 
 
 @media screen and (max-width: 724px) {
-  .carta2 img {
-    width: 200px;
-    height: 200px;
-  }
+    .carta2 p {
+        font-size: 15px;
+    }
 }
 
 
 @media screen and (max-width: 724px) {
-  .carta2 h3 {
-    font-size: 20px;
-  }
+    .carta2 {
+        height: 290px;
+        width: 208px;
+    }
 }
 
 
 @media screen and (max-width: 724px) {
-  .carta2 p {
-    font-size: 15px;
-  }
+    .carta3 img {
+        width: 200px;
+        height: 140px;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .vision {
+        display: flex;
+        flex-direction: column;
+        width: 650px;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        width: 650px;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .mision {
+        display: flex;
+        flex-direction: column;
+        width: 650px;
+        height: 700px;
+    }
 }
 
 
-@media screen and (max-width: 724px) {
-  .carta2 {
-    height: 290px;
-    width: 208px;
-  }
+@media screen and (max-width: 713px) {
+    .vision {
+        display: flex;
+        flex-direction: column;
+        width: 650px;
+        height: 700px;
+    }
 }
 
+@media screen and (max-width: 713px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        width: 650px;
+        height: 700px;
+    }
+}
 
-@media screen and (max-width: 724px) {
-  .carta3 img {
-    width: 200px;
-    height: 200px;
-  }
+@media screen and (max-width: 713px) {
+    .mision {
+        display: flex;
+        flex-direction: column;
+        width: 650px;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .carta3 {
+        display: none;
+    }
 }
 
 
 @media screen and (max-width: 710px) {
-  .carta3 {
-    display: none;
-  }
+    .carta1 {
+        margin-right: 30px;
+    }
 }
 
 
 @media screen and (max-width: 710px) {
-  .carta1 {
-    margin-right: 30px;
-  }
+    .carta6 {
+        display: none;
+    }
 }
 
 
 @media screen and (max-width: 710px) {
-  .carta6 {
-    display: none;
-  }
+    .carta4 {
+        margin-right: 30px;
+    }
 }
 
-
-@media screen and (max-width: 710px) {
-  .carta4 {
-    margin-right: 30px;
-  }
+@media screen and (max-width: 700px) {
+    .vision {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        height: 700px;
+        align-items: center;
+    }
 }
-@media screen and (max-width: 694px){
-  .nosotros div p{ width: 500px;}
+
+@media screen and (max-width: 700px) {
+    .vision img {
+        padding-left: 50px;
+    }
 }
 
+@media screen and (max-width: 700px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        height: 700px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .intro img {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .mision {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        height: 700px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .mision img {
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 665px){
+.blogs1{display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+}
+@media screen and (max-width: 665px){
+.blogs2{display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+}
+@media screen and (max-width: 665px){
+    .b3{
+        display: none;
+    }
+}
+@media screen and (max-width: 665px){
+    .b5{
+        display: none;
+    }
+}
+@media screen and (max-width: 665px){
+.blogs{display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+@media screen and (max-width: 665px) {
+    .cta {
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .vision {
+        display: flex;
+        flex-direction: column;
+        width: 560px;
+        height: 700px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        width: 560px;
+        height: 700px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .mision {
+        display: flex;
+        flex-direction: column;
+        width: 560px;
+        height: 700px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 694px) {
+    .nosotros div p {
+        width: 500px;
+    }
+}
 
 @media screen and (max-width: 622px) {
-  .cta {
-    display: flex;
-    flex-direction: column;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-bottom: 90px;
-  }
+    .cta {
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 622px) {
+    .cta {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 90px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .intro img {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .intro {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mision img {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mision {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mision div p {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .vision img {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .vision {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .vision div p {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 839px) {
+    .cta1 {
+        width: 100%;
+    }
 }
 
 
 @media screen and (max-width: 839px) {
-  .cta1 {
-    width: 100%;
-  }
+    .cta1 h2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cta1 h2 {
+        width: 100%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 532px) {
+    .carta1 img {
+        height: 155px;
+        width: 186px;
+    }
+}
+
+@media screen and (max-width: 532px) {
+    .carta1 {
+        height: 330px;
+        width: 190px;
+        justify-content: start;
+    }
 }
 
 
-@media screen and (max-width: 839px) {
-  .cta1 h2 {
-    font-size: 25px;
-  }
+@media screen and (max-width: 532px) {
+    .carta2 img {
+        height: 150px;
+        width: 186px;
+    }
+}
+
+@media screen and (max-width: 532px) {
+    .carta2 {
+        height: 330px;
+        width: 190px;
+    }
+}
+
+@media screen and (max-width: 532px) {
+    .carta4 img {
+        height: 150px;
+        width: 186px;
+    }
+}
+
+@media screen and (max-width: 532px) {
+    .carta4 {
+        height: 330px;
+        width: 190px;
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width: 532px) {
+    .carta5 img {
+        height: 150px;
+        width: 186px;
+    }
+}
+
+@media screen and (max-width: 532px) {
+    .carta5 {
+        height: 330px;
+        width: 190px;
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width: 572px) {
+    .texto1 {
+        font-size: 15px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 572px) {
+    .texto1 p {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .footer div h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .footer p {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .galeria li {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .galeria {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .social a {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .social {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .galeria {
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 523px) {
+    .cta {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 513px) {
+    .footer div h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .vision img {
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .intro img {
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .mision img {
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .vision {
+        width: 470px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .intro img {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .intro {
+        width: 470px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .mision img {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .mision {
+        width: 470px;
+    }
+}
+
+@media screen and (max-width: 531px) {
+    .vision img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 531px) {
+    .vision {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .intro img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 531px) {
+    .intro {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 531px) {
+    .intro div p {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 531px) {
+    .mision img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 531px) {
+    .mision {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .carta2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .carta1 {
+        width: 300px;
+        height: 360px;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .carta1 img {
+        width: 295px;
+        height: 200px;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .carta5 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .carta4 img {
+        width: 295px;
+        height: 200px;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .carta4 {
+        width: 300px;
+        height: 360px;
+
+    }
+}
+
+@media screen and (max-width: 489px) {
+    .cta1 h2 {
+        width: 100%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 494px) {
+    .cta1 h2 {
+        width: 100%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 484px) {
+    .cta1 h2 {
+        width: 100%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 438px) {
+    .cta {
+        height: 380px;
+    }
 }
 
 
-@media screen and (max-width: 572px){
-  .texto1{
-    font-size: 15px;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 572px){
-  .texto1 p{
-  width: 400px;
-  }
-}
-@media screen and (max-width: 430px){
-  .card1 img{
-        width: 150px;}
-  
+@media screen and (max-width: 430px) {
+    .card1 img {
+        width: 150px;
+    }
 }
 
-     @media screen and (max-width: 430px){
-      .card1{
+@media screen and (max-width: 459px) {
+    .intro {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 459px) {
+    .intro img {
+        width: 250px;
+        height: 200px;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 459px) {
+    .intro div p {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 459px) {
+    .mision {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 459px) {
+    .mision img {
+        width: 250px;
+        height: 200px;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 459px) {
+    .mision div p {
+        width: 250px;
+
+    }
+}
+
+@media screen and (max-width: 459px) {
+    .vision {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 459px) {
+    .vision img {
+        width: 250px;
+        height: 200px;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 459px) {
+    .vision div p {
+        width: 250px;
+
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .card1 {
         width: 200px;
         height: 600px;
-      }
-     }
-
-     @media screen and (max-width: 430px){
-  .card2 img{
-        width: 150px;}
-  
+    }
 }
-@media screen and (max-width: 430px){
-  .exhibiciones div h2{width: 100%;}
-  }
 
-  @media screen and (max-width: 430px){
-  .nosotros{width: 98%;}
-  }
-  @media screen and (max-width: 430px){
-  .texto1 p{font-size: 15px;
-  padding-right: 15px;
-padding-left: 15px;}
-  }
-@media screen and (max-width: 430px){
-  .card1{margin-right: 0%;
-  margin-left: 1%;}
-}  
-@media screen and (max-width: 430px){
-  .card2{margin-left: 0%;}
-}  
-@media screen and (max-width: 430px){
-  .blog .blog2{display: none;}
-}  
-@media screen and (max-width: 430px){
-  .blog1{padding-right: 0%;}
-}  
+@media screen and (max-width: 430px) {
+    .card2 img {
+        width: 150px;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+    .exhibiciones div h2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .nosotros {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .nosotros div p {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .texto1 p {
+        font-size: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .card1 {
+        margin-right: 0%;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .card2 {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .blog .blog2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .blog1 {
+        padding-right: 0%;
+    }
+}
