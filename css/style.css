@@ -121,123 +121,52 @@ header nav ul li a:hover {
 
 .exhibiciones a:hover {
     color: rgb(255, 238, 5);
+    transition: 1s;
 }
 
-.card1 h3 {
+.ex {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    border: 2px rgb(255, 238, 5) solid;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3 {
     color: black;
     display: flex;
     flex-direction: column;
     padding-top: 40px;
 }
 
-.card1 p {
+
+.card a {
     color: black;
-    display: flex;
-    flex-direction: column;
-    padding-top: 40px;
-}
 
-.card1 a {
-    color: black;
-    display: flex;
-    flex-direction: column;
-    padding-top: 40px;
-    transition: 1s
-}
-
-.card1 {
-    border: solid 2px rgb(255, 238, 5);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 0.5fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    width: 95%;
-    height: 250px;
-    margin-bottom: 20px;
-    padding: 30px 10px 30px 30px;
-    margin-left: 30px;
-}
-
-.card1 img {
-    width: 300px;
-    height: 200px;
-}
-
-.card2 h3 {
-    color: black;
-    display: flex;
-    flex-direction: column;
-    padding-top: 40px;
-}
-
-.card2 p {
-    color: black;
-    display: flex;
-    flex-direction: column;
-    padding-top: 40px;
-}
-
-.card2 a {
-    color: black;
     display: flex;
     flex-direction: column;
     padding-top: 40px;
     transition: 1s
 }
 
-.card2 {
-    border: solid 2px rgb(255, 238, 5);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 0.5fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    width: 95%;
-    height: 250px;
-    margin-bottom: 20px;
-    padding: 30px 10px 30px 30px;
-    margin-left: 30px;
-}
 
-.card2 img {
-    width: 340px;
-    height: 200px;
-}
-
-.card3 h3 {
-    color: black;
-    display: flex;
-    flex-direction: column;
-    padding-top: 40px;
-}
-
-.card3 p {
-    color: black;
-    display: flex;
-    flex-direction: column;
-    padding-top: 40px;
-}
-
-.card3 a {
-    color: black;
-    display: flex;
-    flex-direction: column;
-    padding-top: 40px;
-    transition: 1s
-}
-
-.card3 {
-    border: solid 2px rgb(255, 238, 5);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 0.5fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    width: 95%;
-    height: 250px;
-    margin-bottom: 20px;
-    padding: 30px 10px 30px 30px;
-    margin-left: 30px;
-}
-
-.card3 img {
-    width: 300px;
-    height: 200px;
+.card img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .exhibiciones h3 {
@@ -245,65 +174,52 @@ header nav ul li a:hover {
     font-size: 30px;
 }
 
+.blog {
+    width: 100%;
+}
 
-.blog h2 {
-    color: rgb(255, 238, 5);
+.blog div h2 {
+    background-color: rgb(255, 238, 5);
+    color: black;
     text-align: center;
-    margin: 10px;
-    width: 100px;
-    height: 450px;
+    padding: 13px;
+    width: 100%;
+    height: 100%;
     font-size: 40px;
+}
+
+
+.bgs a:hover {
+    color: rgb(255, 238, 5);
+}
+
+.bgs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+}
+
+.bgs a {
+    color: black;
+}
+
+.bgs img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 10px;
+}
+
+.bg {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding-top: 150px;
-}
-
-.blog a:hover {
-    color: rgb(255, 238, 5);
-}
-
-.blog {
-    display: grid;
-    grid-template-columns: 0.2fr 1fr 1fr 1fr;
-    background-color: white;
-    color: black;
-}
-
-.blog a {
-    color: black;
-}
-
-.blog img {
-    width: 297px;
-    height: 250px;
-    margin-bottom: 10px;
-}
-
-.blog1 {
-    border: solid 2px rgb(255, 238, 5);
-    width: 300px;
-    height: 450px;
-    margin: 10px;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.blog2 {
-    border: solid 2px rgb(255, 238, 5);
-    width: 300px;
-    height: 450px;
-    margin: 10px;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.blog3 {
-    border: solid 2px rgb(255, 238, 5);
-    width: 300px;
-    height: 450px;
-    margin: 10px;
-    text-align: center;
-    margin-top: 30px;
 }
 
 .footer {
@@ -1105,47 +1021,6 @@ header nav ul li a:hover {
     }
 }
 
-@media screen and (max-width: 992px) {
-    .blog1 {
-        width: 222px;
-        height: 500px;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .blog1 p {
-        font-size: 15px;
-        padding: 5px 5px 5px;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .blog .blog2 {
-        width: 222px;
-        height: 500px;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .blog2 p {
-        font-size: 15px;
-        padding: 5px 5px 5px;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .blog .blog3 {
-        width: 222px;
-        height: 500px;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .blog3 p {
-        font-size: 15px;
-        padding: 5px 5px 5px;
-    }
-}
 
 @media screen and (max-width: 984px) {
     .nosotros {
@@ -1276,20 +1151,6 @@ header nav ul li a:hover {
     }
 }
 
-
-@media screen and (max-width: 984px) {
-    .blog h2 {
-        font-size: 30px;
-        height: 10px;
-        width: 100%;
-        margin-top: 0px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-right: 3px;
-        margin-left: 5px;
-    }
-}
 
 
 @media screen and (max-width: 984px) {
@@ -2241,12 +2102,6 @@ header nav ul li a:hover {
 
 
 @media screen and (max-width: 813px) {
-    .blog3 {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 813px) {
     .intro {
         display: flex;
         flex-direction: column;
@@ -2418,13 +2273,7 @@ header nav ul li a:hover {
     }
 }
 
-@media screen and (max-width: 768px) {
-    .blog {
-        display: grid;
-        grid-template-columns: 0.5fr 1fr 1fr;
 
-    }
-}
 
 @media screen and (max-width: 768px) {
     .blog img {
@@ -2433,12 +2282,6 @@ header nav ul li a:hover {
     }
 }
 
-@media screen and (max-width: 768px) {
-    .blog1 {
-        width: 255px;
-        height: 500px;
-    }
-}
 
 @media screen and (max-width: 768px) {
     .blog1 p {
@@ -2446,24 +2289,6 @@ header nav ul li a:hover {
         padding: 5px 5px 5px;
     }
 }
-
-@media screen and (max-width: 768px) {
-    .blog .blog2 {
-        width: 255px;
-        height: 500px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .blog2 p {
-        font-size: 15px;
-        padding: 5px 5px 5px;
-    }
-}
-
-
-
-
 
 
 @media screen and (max-width: 700px) {
@@ -2683,30 +2508,38 @@ header nav ul li a:hover {
         padding-left: 50px;
     }
 }
-@media screen and (max-width: 665px){
-.blogs1{display: grid;
-    grid-template-columns: 1fr 1fr;
+
+@media screen and (max-width: 665px) {
+    .blogs1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
+
+@media screen and (max-width: 665px) {
+    .blogs2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
-@media screen and (max-width: 665px){
-.blogs2{display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-}
-@media screen and (max-width: 665px){
-    .b3{
+
+@media screen and (max-width: 665px) {
+    .b3 {
         display: none;
     }
 }
-@media screen and (max-width: 665px){
-    .b5{
+
+@media screen and (max-width: 665px) {
+    .b5 {
         display: none;
     }
 }
-@media screen and (max-width: 665px){
-.blogs{display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+
+@media screen and (max-width: 665px) {
+    .blogs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media screen and (max-width: 665px) {
@@ -3253,17 +3086,5 @@ header nav ul li a:hover {
 @media screen and (max-width: 430px) {
     .card2 {
         margin-left: 0%;
-    }
-}
-
-@media screen and (max-width: 430px) {
-    .blog .blog2 {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 430px) {
-    .blog1 {
-        padding-right: 0%;
     }
 }
